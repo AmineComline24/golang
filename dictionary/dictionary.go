@@ -21,7 +21,7 @@ func (d *Dictionary) Add(word string, definition string) {
 
 }
 
-func (d *Dictionary) Get(word string) (Entry, error) {
+func (d *Dictionary) Get(take string) (Entry, error) {
 
 	return Entry{}, nil
 }
